@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+</head>
+<style>
+h1{text-align:center}
+h4{text-align:center}
+
+</style>
+
+<body style="background-color:rgb(103, 182, 235);">
+    
+
+    <h1 style="font-size:35px;">
+        Student Registration Form
+    </h1>
+    
+    <form class="container" method="post" action="/">
+      
+       <h2
+        style="color:rgb(11, 11, 12);">
+            FIRST NAME:
+        </h2> 
+
+        <div class="form-group">
+            
+            <input  class="form-control" placeholder="FIRST NAME *" value="" name="firstName"/>
+        </div> 
+
+    
+        <h2 
+            style="color:rgb(11, 11, 12);">
+            LAST NAME:
+        </h2>
+      
+    
+        <div class="form-group">
+            <input class="form-control" placeholder="LAST NAME *" value="" name="lastName" />
+    
+        <div>
+
+     
+        <h2>
+         DATE OF BIRTH:
+        </h2>
+        
+        <div class="form-group">
+            <input class="form-control" placeholder="DD-MM-YYYY *" value=""
+            name= "dateOfbirth" />
+        <div>
+
+        <h2
+            style="color:rgb(0, 0, 0);">
+            EMAIL:
+        </h2>
+
+        <div class="form-group">
+            <input  class="flow-control" placeholder="Your Email *" value=""
+            name="email" maxlength="30" />
+    
+        <div>
+
+
+        <h2
+            style="color:rgb(0, 0, 0);">
+            Phone:
+        </h2>
+
+        <div class="form-group">
+            <input class="flow-control" placeholder="PHONE NUMBER *" value="" name="phone" maxlength="10" />
+    
+        <div>
+           
+        <h2
+            style="color:rgb(0, 0, 0);">
+            GENDER:
+        </h2>
+
+        <div class="form-group">
+            <select name="GENDER" id="gender"> 
+                <option value="-1">SELECT:</option>
+                <option value="MALE">MALE</option>
+                <option value="FEMALE">FEMALE</option>
+            </select>
+        </div>
+
+        <h2 style="color:rgb(0, 0, 0);">
+            PURPOSE OF APPLICATION:
+        </h2>
+  
+        <div class="form-group">
+            <textarea class="form-control" placeholder="PURPOSE OF APPLICATION *" value="" name="purpose" rows="5" cols="100"></textarea>
+            
+        </div>
+
+        <h4 style="color:rgb(11, 11, 12);">
+
+            <button>
+            
+             <b>SUBMIT</b>
+
+            </button>
+        </h4>
+
+    </form>
+</body>
+</html>
